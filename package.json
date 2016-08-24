@@ -1,0 +1,46 @@
+{
+    "author": "bzhtapp@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "everything",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Everything Pedometer",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "FORECAST_HR3_TEMPERATURE",
+            "FORECAST_HR3_CONDITIONS",
+            "FORECAST_DAY2_TEMPERATURE",
+            "FORECAST_DAY2_CONDITIONS",
+            "FORECAST_DAY3_TEMPERATURE",
+            "FORECAST_DAY3_CONDITIONS",
+            "FORECAST_CITY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bt-icon.png",
+                    "name": "IMAGE_BT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "73e36dae-3103-43d7-bd71-ae72235b96e6",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
